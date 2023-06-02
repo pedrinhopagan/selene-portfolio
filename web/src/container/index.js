@@ -1,0 +1,6 @@
+export { default as About } from './About/About'
+export { default as Activities } from './Activities/Activities'
+export { default as Experience } from './Experience/Experience'
+export { default as Footer } from './Footer/Footer'
+export { default as Gallery } from './Gallery/Gallery'
+export { default as Method } from './Method/Method'

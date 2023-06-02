@@ -1,0 +1,75 @@
+// #footer {
+//   background-image: linear-gradient(var(--primary-color), #FFB703, #FFB703)
+// }
+
+.app__footer-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+
+  .app__footer-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 0 1rem 1rem;
+    gap: 10px;
+
+    background-color: var(--gray-color);
+    padding: 1rem;
+    border-radius: 7px;
+    min-width: 220px;
+
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+
+    &:nth-child(1) {
+      color: #ea4335;
+    }
+
+    &:nth-child(2) {
+      color: #25d366;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--blue-color);
+    }
+  }
+}
+
+.app__footer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+
+  div {
+    min-width: 520px;
+    width: 30%;
+
+    margin: 1rem 0 0;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 1.5rem;
+      border: none;
+      border-radius: 7px;
+
+      background-color: var(--blue-color);
+
+      font-family: "DM sans" sans-serif;
+      color: var(--secondary-color);
+      outline: none;
+    }
+
+    textarea {
+      height: 240px;
+    }
+  }
+}
